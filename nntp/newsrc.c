@@ -979,7 +979,7 @@ const char *nntp_format_str(char *buf, size_t buflen, size_t col, int cols, char
 /**
  * nntp_select_server - Open a connection to an NNTP server
  * @param m          Mailbox
- * @param server     Server URI
+ * @param server     Server URL
  * @param leave_lock Leave the server locked?
  * @retval ptr  NNTP server
  * @retval NULL Error

@@ -51,8 +51,8 @@
 #include "mutt/lib.h"
 #include "email/lib.h"
 #include "backend.h"
-#include "hcache.h"
 #include "hcache/hcversion.h"
+#include "lib.h"
 
 /* These Config Variables are only used in hcache/hcache.c */
 char *C_HeaderCacheBackend; ///< Config: (hcache) Header cache backend to use

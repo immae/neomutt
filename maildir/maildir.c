@@ -51,7 +51,7 @@
 #include "muttlib.h"
 #include "mx.h"
 #ifdef USE_HCACHE
-#include "hcache/hcache.h"
+#include "hcache/lib.h"
 #endif
 
 // Flags for maildir_mbox_check()

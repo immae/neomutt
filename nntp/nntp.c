@@ -46,7 +46,7 @@
 #include "nntp.h"
 #include "bcache.h"
 #include "globals.h"
-#include "hcache/hcache.h"
+#include "hcache/lib.h"
 #include "hook.h"
 #include "mutt_account.h"
 #include "mutt_logging.h"

@@ -50,7 +50,7 @@
 #include "mutt.h"
 #include "copy.h"
 #include "globals.h"
-#include "hcache/hcache.h"
+#include "hcache/lib.h"
 #include "maildir/lib.h" // IWYU pragma: keep
 #include "muttlib.h"
 #include "mx.h"

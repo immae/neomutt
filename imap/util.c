@@ -54,7 +54,7 @@
 #include "mutt_account.h"
 #include "options.h"
 #ifdef USE_HCACHE
-#include "hcache/hcache.h"
+#include "hcache/lib.h"
 #include "message.h"
 #endif
 

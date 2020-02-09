@@ -60,7 +60,7 @@
 #include "mutt.h"
 #include "mutt_notmuch.h"
 #include "globals.h"
-#include "hcache/hcache.h"
+#include "hcache/lib.h"
 #include "index.h"
 #include "maildir/lib.h"
 #include "mutt_thread.h"

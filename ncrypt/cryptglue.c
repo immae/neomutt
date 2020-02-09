@@ -47,7 +47,7 @@
 #endif
 #ifdef USE_AUTOCRYPT
 #include "email/lib.h"
-#include "autocrypt/autocrypt.h"
+#include "autocrypt/lib.h"
 #include "globals.h"
 #include "ncrypt/crypt_gpgme.h"
 #include "options.h"

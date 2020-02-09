@@ -34,8 +34,8 @@
 #include "autocrypt_private.h"
 #include "mutt/lib.h"
 #include "address/lib.h"
-#include "autocrypt.h"
 #include "globals.h"
+#include "lib.h"
 
 /* Prepared statements */
 static sqlite3_stmt *AccountGetStmt;

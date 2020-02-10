@@ -49,7 +49,7 @@
 #include "hook.h"
 #include "keymap.h"
 #include "maildir/lib.h"
-#include "mbox/mbox.h"
+#include "mbox/lib.h"
 #include "mutt_header.h"
 #include "mutt_logging.h"
 #include "mutt_mailbox.h"

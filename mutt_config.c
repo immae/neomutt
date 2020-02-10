@@ -60,7 +60,7 @@
 #include "notmuch/lib.h"
 #include "pager.h"
 #include "pattern.h"
-#include "pop/pop.h"
+#include "pop/lib.h"
 #include "progress.h"
 #include "query.h"
 #include "recvattach.h"

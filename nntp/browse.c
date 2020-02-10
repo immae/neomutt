@@ -32,8 +32,8 @@
 #include "email/lib.h"
 #include "browser.h"
 #include "format_flags.h"
+#include "lib.h"
 #include "muttlib.h"
-#include "nntp.h"
 
 /**
  * group_index_format_str - Format a string for the newsgroup menu - Implements ::format_t

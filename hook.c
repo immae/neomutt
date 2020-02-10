@@ -48,7 +48,7 @@
 #include "mutt_commands.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "pattern.h"
 #ifdef USE_COMPRESSED
 #include "compress.h"

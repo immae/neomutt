@@ -51,7 +51,7 @@
 #include "mutt_thread.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "opcodes.h"
 #include "options.h"
 #include "protos.h"

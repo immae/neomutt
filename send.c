@@ -59,7 +59,7 @@
 #include "mutt_logging.h"
 #include "mutt_parse.h"
 #include "muttlib.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "options.h"
 #include "pattern.h"
 #include "protos.h"

@@ -70,7 +70,7 @@
 #include "muttlib.h"
 #include "mx.h"
 #include "myvar.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "options.h"
 #include "protos.h"
 #include "send.h"

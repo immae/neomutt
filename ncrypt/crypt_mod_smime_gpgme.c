@@ -31,7 +31,7 @@
 #include <stdio.h>
 #include "crypt_gpgme.h"
 #include "crypt_mod.h"
-#include "ncrypt.h"
+#include "lib.h"
 
 /**
  * smime_gpgme_void_passphrase - Implements CryptModuleSpecs::void_passphrase()

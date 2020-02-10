@@ -54,7 +54,7 @@
 #include "mutt_parse.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "opcodes.h"
 #include "options.h"
 #include "recvcmd.h"

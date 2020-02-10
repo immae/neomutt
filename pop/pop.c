@@ -54,7 +54,7 @@
 #include "mutt_socket.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "progress.h"
 #ifdef ENABLE_NLS
 #include <libintl.h>

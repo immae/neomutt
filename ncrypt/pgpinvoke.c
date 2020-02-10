@@ -40,9 +40,9 @@
 #include "pgpinvoke.h"
 #include "format_flags.h"
 #include "globals.h"
+#include "lib.h"
 #include "mutt_logging.h"
 #include "muttlib.h"
-#include "ncrypt.h"
 #include "pgpkey.h"
 #include "protos.h"
 #ifdef CRYPT_BACKEND_CLASSIC_PGP

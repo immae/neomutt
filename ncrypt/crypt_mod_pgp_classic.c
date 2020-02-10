@@ -29,7 +29,7 @@
 #include "config.h"
 #include <stdio.h>
 #include "crypt_mod.h"
-#include "ncrypt.h"
+#include "lib.h"
 #include "pgpinvoke.h"
 #include "pgpkey.h"
 #ifdef CRYPT_BACKEND_CLASSIC_PGP

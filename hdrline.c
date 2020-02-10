@@ -52,7 +52,7 @@
 #include "mutt_parse.h"
 #include "mutt_thread.h"
 #include "muttlib.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "sort.h"
 
 /* These Config Variables are only used in hdrline.c */

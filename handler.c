@@ -51,7 +51,7 @@
 #include "mutt_attach.h"
 #include "mutt_logging.h"
 #include "muttlib.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "opcodes.h"
 #include "options.h"
 #include "rfc3676.h"

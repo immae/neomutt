@@ -49,7 +49,7 @@
 #include "mailcap.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "options.h"
 #include "pager.h"
 #include "protos.h"

@@ -40,7 +40,7 @@
 #include "lib.h"
 #include "muttlib.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "options.h"
 #include "send.h"
 

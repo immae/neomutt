@@ -37,7 +37,7 @@
 #include "mutt_header.h"
 #include "mutt_thread.h"
 #include "mx.h"
-#include "ncrypt/ncrypt.h"
+#include "ncrypt/lib.h"
 #include "pattern.h"
 #include "score.h"
 #include "sort.h"

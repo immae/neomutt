@@ -195,11 +195,17 @@ char *mutt_account_getoauthbearer(struct ConnAccount *cac)
   char oauthbearer[4096];
   int oalen = snprintf(oauthbearer, sizeof(oauthbearer), "n,a=%s,\001host=%s\001port=%d\001auth=Bearer %s\001\001",
                                 cac->login, cac->host, cac->port, token);
+  FREE(&token);
 
   size_t encoded_len = oalen * 4 / 3 + 10;
+  if (encoded_len > 5400)
+  {
+    mutt_debug(LL_DEBUG1, "encoded oauth token is too big: %ld\n", encoded_len);
+    return NULL;
+  }
+
   char *encoded_token = mutt_mem_malloc(encoded_len);
   mutt_b64_encode(oauthbearer, oalen, encoded_token, encoded_len);
 
-  FREE(&token);
   return encoded_token;
 }

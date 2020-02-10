@@ -57,7 +57,7 @@
 #include "muttlib.h"
 #include "mx.h"
 #include "nntp/lib.h"
-#include "notmuch/mutt_notmuch.h"
+#include "notmuch/lib.h"
 #include "pager.h"
 #include "pattern.h"
 #include "pop/pop.h"

@@ -58,7 +58,7 @@
 #include "protos.h"
 #include "sort.h"
 #ifdef USE_NOTMUCH
-#include "notmuch/mutt_notmuch.h"
+#include "notmuch/lib.h"
 #endif
 
 /* These Config Variables are only used in maildir/mh.c */

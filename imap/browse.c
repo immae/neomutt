@@ -41,7 +41,7 @@
 #include "mutt.h"
 #include "browser.h"
 #include "globals.h"
-#include "imap/imap.h"
+#include "imap/lib.h"
 #include "mutt_logging.h"
 #include "muttlib.h"
 

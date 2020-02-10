@@ -44,7 +44,7 @@
 #include "globals.h"
 #include "handler.h"
 #include "hdrline.h"
-#include "imap/imap.h"
+#include "imap/lib.h"
 #include "index.h"
 #include "init.h"
 #include "mailcap.h"

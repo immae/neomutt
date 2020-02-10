@@ -50,7 +50,7 @@
 #include "gui/lib.h"
 #include "bcache.h"
 #include "globals.h"
-#include "imap/imap.h"
+#include "imap/lib.h"
 #include "mutt_account.h"
 #include "options.h"
 #ifdef USE_HCACHE

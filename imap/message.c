@@ -46,7 +46,7 @@
 #include "message.h"
 #include "bcache.h"
 #include "globals.h"
-#include "imap/imap.h"
+#include "imap/lib.h"
 #include "mutt_account.h"
 #include "mutt_logging.h"
 #include "mutt_socket.h"

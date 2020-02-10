@@ -39,7 +39,7 @@
 #include "alias.h"
 #include "context.h"
 #include "globals.h"
-#include "imap/imap.h"
+#include "imap/lib.h"
 #include "init.h"
 #include "monitor.h"
 #include "mutt_commands.h"
